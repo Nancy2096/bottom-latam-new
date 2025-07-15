@@ -26,7 +26,7 @@ export function HeroVideo() {
   }, [])
 
   return (
-    <div className="relative h-[600px] w-full overflow-hidden">
+    <div className="relative2 h-[600px] w-full overflow-hidden">
       <video
         ref={videoRef}
         autoPlay
