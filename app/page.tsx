@@ -444,11 +444,14 @@ export default function Home() {
             </div>
 
             <div className="mt-8 max-w-3xl mx-auto text-center">
-              <Button asChild className="px-8 py-3 text-base font-semibold">
-                <Link href="/faq">
-                  Ver todas las preguntas frecuentes
-                </Link>
-              </Button>
+              <FaqSection />
+              <div className="mt-8">
+                <Button asChild className="px-8 py-3 text-base font-semibold">
+                  <Link href="/faq">
+                    Ver todas las preguntas frecuentes
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
         </section>
