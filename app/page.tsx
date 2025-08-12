@@ -47,7 +47,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         {/* Hero Banner with Video */}
-        <section className="relative2">
+        <section className="relative min-h-[110vh] mt-[-80px]">
           <HeroVideo />
           <div className="absolute inset-0 bg-black/50 flex items-center">
             <div className="container px-4 md:px-6">
@@ -176,7 +176,7 @@ export default function Home() {
         {/* Benefits Section */}
         <section
           id="benefits"
-          className="w-full py-12 md:py-24 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5"
+          className="w-full py-12 md:py-24 bg-[url('/background-gray.webp')] bg-cover bg-center bg-no-repeat"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -287,7 +287,7 @@ export default function Home() {
         {/* Investment Programs */}
         <section
           id="programs"
-          className="w-full py-12 md:py-24 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5"
+          className="w-full py-12 md:py-24 bg-[url('/background-green.webp')] bg-cover bg-center bg-no-repeat"
         >
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -459,7 +459,7 @@ export default function Home() {
         {/* Contact Section */}
         <section
           id="contact"
-          className="w-full py-12 md:py-24 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5"
+          className="w-full py-12 md:py-24 bg-[url('/background-green.webp')] bg-cover bg-center bg-no-repeat"
         >
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
@@ -486,11 +486,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="relative rounded-lg overflow-hidden flex-grow mt-auto">
-                  <div className="h-full">
+                  <div className="relative h-full">
                     <Image
-                      src="/executive-advisor-woman.png"
+                      src="/Contacto-bottom.webp"
                       alt="Asesora comercial de Bottom Line LATAM"
-                      fill
+                      fill  
                       className="object-cover"
                     />
                   </div>
