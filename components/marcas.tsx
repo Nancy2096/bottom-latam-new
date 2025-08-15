@@ -41,6 +41,14 @@ export function Marcas() {
 
   const maxIndex = Math.max(0, images.length - itemsPerView)
 
+  // Carrusel automático
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev < maxIndex ? prev + 1 : 0))
+    }, 3000)
+    return () => clearInterval(interval)
+  }, [maxIndex])
+
   const goToPrevious = () => {
     setCurrentIndex((prev) => Math.max(0, prev - 1))
   }
@@ -105,7 +113,7 @@ export function Marcas() {
                 src={src}
                 alt={`Slide ${index + 1}`}
                 className="object-contain mx-auto"
-                style={{ width: "140px", height: "60px" }}
+                style={{ width: "175px", height: "75px" }}
               />
             </div>
           ))}

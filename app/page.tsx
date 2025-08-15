@@ -488,7 +488,7 @@ export default function Home() {
                 <div className="relative rounded-lg overflow-hidden flex-grow mt-auto">
                   <div className="relative h-full">
                     <Image
-                      src="/Contacto-bottom.webp"
+                      src="/asesor-contacto.webp"
                       alt="Asesora comercial de Bottom Line LATAM"
                       fill  
                       className="object-cover"
