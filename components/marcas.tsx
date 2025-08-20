@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 const images = [
   "/7eleven.png",
   "/autozone.png",
-  "/boss.png",
+  "/dutchbros.png",
   "/chevron.png",
   "/chipotle.png",
   "/choice.png",
